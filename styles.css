@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #D4DF9E;
+    color: #5D3004;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Syne', sans-serif;
+}
+
+#artistContainer {
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-size: large;
+    padding: 20px;
+
+}
+
+.trackContainer {
+    
+    background-color: #5D3004;
+    color: #D4DF9E;
+    width: 50%;
+    margin: 0 auto; /* Keskittää elementin */
+    
+    border-radius: 8px; /* Pyöristää kulmat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lisää varjoa */
+}
