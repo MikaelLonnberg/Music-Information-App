@@ -4,7 +4,7 @@ Created by Mikael Lönnberg
 
 ## Demo link:
 
-Access my site at https://resilient-platypus-7e542a.netlify.app/
+Access my site at https://musicinformationapp.netlify.app/
 
 ## How was the workload divided
 

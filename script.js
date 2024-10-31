@@ -108,6 +108,7 @@ function displaySearchResults(data) {
         
         // Nimi-elementti klikkaustapahtumaa varten
         let nameElement = document.createElement("p");
+        nameElement.style.cursor = "pointer";
         nameElement.textContent = artistName;
 
         // Kuvan luonti
