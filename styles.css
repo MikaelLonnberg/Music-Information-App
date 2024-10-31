@@ -14,16 +14,13 @@ h1 {
     font-family: 'Syne', sans-serif;
     font-size: large;
     padding: 20px;
-
 }
 
 .trackContainer {
-    
     background-color: #5D3004;
     color: #D4DF9E;
     width: 50%;
-    margin: 0 auto; /* Keskittää elementin */
-    
-    border-radius: 8px; /* Pyöristää kulmat */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lisää varjoa */
+    margin: 0 auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
