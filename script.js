@@ -150,7 +150,7 @@ function fetchTopTracks(artistName, trackContainer) {
 
 // Näyttää artistin viisi suosituinta kappaletta annetussa trackContainerissa
 function displayTopTracks(data, trackContainer) {
-    trackContainer.innerHTML = ""; // Tyhjennetään aiemmat kappaleet
+    trackContainer.innerHTML = "Top 5 tracks:"; // Annetaan listalle otsikko
 
     // Poimitaan 5 ensimmäistä kappaletta
     let tracks = data.toptracks.track.slice(0, 5);
