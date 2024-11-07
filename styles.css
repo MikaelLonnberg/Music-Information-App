@@ -24,3 +24,21 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+.artistItem {
+    border: 2px solid #5D3004; 
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #F9F9F9; 
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.artistItem img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
