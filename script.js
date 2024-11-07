@@ -28,7 +28,7 @@ function displayTopArtists(data) {
 
     // Luodaan elementit jokaiselle artistille
     artists.forEach(artist => {
-        let artistImage = artist.image[1]["#text"]; // Artisti kuva
+        let artistImage = artist.image[1]["#text"]; // Artisti kuva, LASTFM API:STA EI ENÄÄ SAA ARTISTIKUVIA, lisätty kuva on vain tähden muotoinen.
         let artistName = artist.name; // Artisti nimi
         let artistItem = document.createElement("div"); // Artisti-elemntti
         artistItem.className = "artistItem";
